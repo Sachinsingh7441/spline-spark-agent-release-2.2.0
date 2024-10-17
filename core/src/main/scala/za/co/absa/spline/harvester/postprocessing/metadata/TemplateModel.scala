@@ -119,5 +119,5 @@ object EvaluableNames {
   val EnvVar = "$env"
   val JsEval = "$js"
 
-  object `_: ScriptObjectMirror` extends SafeTypeMatchingExtractor(classOf[jdk.nashorn.api.scripting.ScriptObjectMirror])
+  object `_: ScriptObjectMirror` extends SafeTypeMatchingExtractor(classOf[org.openjdk.nashorn.api.scripting.ScriptObjectMirror])
 }
